@@ -1,0 +1,9 @@
+// length width and height
+var l = 
+var w = 
+var h =
+var input = 
+
+for(var i = 0; i < input.length; i++){
+  
+}

@@ -2031,8 +2031,14 @@ for(var i = 0; i < packages.length; i++){
   var l = dimensions[0];
   var w = dimensions[1];
   var h = dimensions[2];
-  
-total += l + l + w + w;
+  var a = l * w * h;
+
+var max= Math.max(l, w, h);
+var index = dimensions.indexOf(max.toString())
+dimensions.splice(index, 1)
+
+total += (dimensions[0] * 2) + (dimensions[1] *2); 
+total +=a;
 }
 
 console.log(total);

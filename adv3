@@ -1,0 +1,9 @@
+var north= 0;
+var south = 0;
+var east = 0;
+var west = 0;
+var input = ``;
+
+for(var i = 0; i < input.length; i++){
+  if(== <){}
+}

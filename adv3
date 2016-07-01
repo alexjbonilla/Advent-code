@@ -1,9 +1,15 @@
-var north= 0;
-var south = 0;
-var east = 0;
-var west = 0;
-var input = ``;
+var x = [];
+var y = [];
+var input = `>`;
 
 for(var i = 0; i < input.length; i++){
-  if(== <){}
-}
+var item = input[i];
+  if(item == '>'){
+    x += [1,0];
+  }
+  else if(item == '<'){
+    y+= [0,1];
+  }
+};
+console.log(x);
+console.log(y);

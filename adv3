@@ -1,14 +1,14 @@
-var x = [];
-var y = [];
+var x = 0;
+var y = 0;
 var input = `>`;
 
 for(var i = 0; i < input.length; i++){
 var item = input[i];
   if(item == '>'){
-    x += [1,0];
+    x++;
   }
   else if(item == '<'){
-    y+= [0,1];
+    x--;
   }
 };
 console.log(x);

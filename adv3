@@ -5,10 +5,10 @@ var input = `>`;
 for(var i = 0; i < input.length; i++){
 var item = input[i];
   if(item == '>'){
-    x++;
+    input.push;
   }
   else if(item == '<'){
-    x--;
+    input.pop;
   }
 };
 console.log(x);
